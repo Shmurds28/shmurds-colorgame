@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>
+        color Game
+    </title>
+    <link rel="stylesheet" href="ColorGame.css">
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.css">
+</head>
+<body>
+    <h1>Guess The   <i class="far fa-question-circle help" title="Help"></i>
+        <br>
+        <span id="ColorDisplay">RGB</span>
+        <br> 
+        Color Game</h1>
+    <div id="stripe">
+        <button id="reset">New Colors</button>
+        <span id="message"></span>
+        <button class="mode selected">Easy</button>
+        <button class="mode">Medium</button>
+        <button class="mode">Hard</button>
+    </div>
+<div class="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+<div class="modal">
+    
+    <div class="modalContent">
+        <i class="fas fa-window-close close" title="Close"></i>
+        <h1>RGB Color Model</h1>
+        <p>
+            The RGB color model is an additive color model in which red, green, and blue light are added together in various ways to 
+            reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green,
+             and blue.
+        </p>
+        <h1>How To Play</h1>
+        <p>
+            Choose a color that matches the rgb commbination shown. You can switch from easy, medium or hard depending on the level you want to play.
+            You can also select the "New Colors" button to get a new rgb commbination and new colors to choose from. If you select a wrong color,
+            it will be removed from the disaplayed colors. Once you select the right color, all the squares will change to the selected color and
+            you will have completed the game. A "Play Again?" button will apear when you complete the game and you can click that to play again. Good Luck!
+        </p>
+       
+        <h1>About Game</h1>
+        <p>I built this project while doing section 17 of the <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">web development bootcamp</a> by Colt Steele on Udemy.</p>
+        <h1>Contact</h1>
+        <p>
+            <a href="mailto:simamkelengcasane28@gmail.com"> <i class="fas fa-envelope fa-lg"></i></a>
+            <a href="https://github.com/shmurds28"><i class="fab fa-github fa-lg"></i></a>
+            <a href="https://twitter.com/_shmurds"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://instagram.com/shmurds_n"><i class="fab fa-instagram fa-lg"></i></a>
+        </p>
+       
+    </div>
+    
+</div>
+
+
+<script src="ColorGame.js"></script>
+</body>
+</html>
